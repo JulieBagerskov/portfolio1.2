@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Julie Bagerskovs Portfolio">
+  <meta name="keywords" content="Front-end Webdesign, Julie Bagerskov, Portfolio">
+  <meta name="author" content="Julie Bagerskov">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+<title>Julie Bagerskovs Portfolio</title>
+	
+<meta name="description" content="A jquery light weight image slideshow plugin. Full width and fully responsive simple image slider with fade in and fade out effect.">
+<meta name="keywords" content="jquery slideshow, full width slideshow, simple slideshow, simple image slider, responsive slider, full width responsive slider">
+<meta name="robots" content="index, follow">
+<meta name="copyright" content="Samir Das">
+<meta name="language" content="EN">
+<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="src/skdslider.min.js"></script>
+<script src="src/skdslider.js"></script>
+<link href="src/skdslider.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+	
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({delay:1500, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+			jQuery('#demo2').skdslider({delay:1500, animationSpeed: 1000,showNextPrev:true,showPlayButton:false,autoSlide:true,animationType:'sliding'});
+			jQuery('#demo3').skdslider({delay:1500, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+			
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			  $(window).trigger('resize');
+			});
+			
+		});
+</script>
+</head>
+<body>
+		
+	
+	<div class="container">
+	  <img id="navlogo" src="images/jblogo.png" alt=""/>
+<nav class="navbar">
+  <ul>
+<li><a class="menu" href="index.html">Hjem</a></li> 
+<li><a class="active menu" href="projekter.html"> Projekter</a></li> 
+<li><a class="menu" href="mig.html">Mig</a></li> 
+<li><a class="menu" href="kontakt.html">Kontakt</a></li>
+</ul>
+</nav>
+	</div>
+
+<section>
+	<h1 class="h1">Projekter</h1>
+	</section>
+
+<div class="skdslider">
+    <ul id="demo1" class="slides">
+<li>
+<img class="img" src="images/flow1baggrund.jpg" alt="webdesign"/>
+<!--Slider Description example-->
+ <div class="slide-desc">
+  </div>
+</li>
+<li><img class="img" src="images/flow1forsidexd.jpg" alt="webdesign_01"/>
+   <div class="slide-desc">
+  </div>
+</li>
+<li><img class="img" src="images/flow1udviklingxd.jpg" alt="webdesign_02" />
+<!--NO Description Here-->
+</li>
+
+</ul>
+</div>	
+	
+	
+	
+<div><footer class="site-footer">
+<img class="footer_image" src="images/underbaggrund2.jpg" alt="footer">
+	
+</footer></div>
+	
+</body>
+</html>
