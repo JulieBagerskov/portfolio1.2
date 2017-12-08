@@ -1,19 +1,33 @@
+
+/*Boksen*/
 .skdslider{
- width:100%;
+ width:1000px;
  position: relative;
  display: block;
  overflow:hidden;
- height:450px;
+ height:558px;
 }
 
-.skdslider ul.slides{ margin:0; padding:0; list-style-type:none;}
-.skdslider ul.slides li
-{
+.img {
+	width: 1000px;
+	height: 558;
+	margin:auto;
+	position: relative;
+	float: right;
+	display: block;
+	overflow: hidden;
+}
+
+.skdslider ul.slides{ 
+	margin:0; padding:0; 
+	list-style-type:none;}
+
+.skdslider ul.slides li {
    display: none;
 }
 .skdslider ul.slides li img{
-    width: 100%;
-	height:100%;
+    width: 40%;
+	height:40%;
 	border:0;
 }
 

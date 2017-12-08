@@ -6,77 +6,63 @@
   <meta name="keywords" content="Front-end Webdesign, Julie Bagerskov, Portfolio">
   <meta name="author" content="Julie Bagerskov">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
-<title>Julie Bagerskovs Portfolio</title>
-	
 
+	<link type="text/css" rel="stylesheet" href="sss/sss.css" media="all"/>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+	
+	
+	<script src="http://code.jquery.com/jquery.js"></script>	
+	<script src="sss/sss.min.js" type="text/javascript"></script>
+
+	
+	
+	
+	<title>Julie Bagerskovs Portfolio</title>
+<script >
+	
+$( document ).ready(function() {
+	console.log( "ready!" );
+	$('.slider').sss();
+});
+		
+	</script>
 </head>
+	
+	
+	
 <body>
 		
 	
 	<div class="container">
-	  <img id="navlogo" src="images/jblogo.png" alt=""/>
+	  <img id="navlogo" src="images/logo1.png" alt=""/>
 <nav class="navbar">
   <ul>
-<li><a class="menu" href="index.html">Hjem</a></li> 
-<li><a class="active menu" href="projekter.html"> Projekter</a></li> 
-<li><a class="menu" href="mig.html">Mig</a></li> 
-<li><a class="menu" href="kontakt.html">Kontakt</a></li>
+<li><a class="menu" href="index.html">HJEM</a></li> 
+<li><a class="active menu" href="projekter.html"> PORTFOLIO</a></li> 
+<li><a class="menu" href="mig.html">OM MIG</a></li> 
+<li><a class="menu" href="kontakt.html">KONTAKT</a></li>
 </ul>
 </nav>
 	</div>
-
-<section>
-	<h1 class="h1">Projekter</h1>
-	</section>
-
-<meta name="description" content="A jquery light weight image slideshow plugin. Full width and fully responsive simple image slider with fade in and fade out effect.">
-<meta name="keywords" content="jquery slideshow, full width slideshow, simple slideshow, simple image slider, responsive slider, full width responsive slider">
-<meta name="robots" content="index, follow">
-<meta name="copyright" content="Samir Das">
-<meta name="language" content="EN">
-<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="src/skdslider.min.js"></script>
-<script src="src/skdslider.js"></script>
-<link href="src/skdslider.css" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
 	
-<script type="text/javascript">
-		jQuery(document).ready(function(){
-			jQuery('#demo1').skdslider({delay:1500, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
-			jQuery('#demo2').skdslider({delay:1500, animationSpeed: 1000,showNextPrev:true,showPlayButton:false,autoSlide:true,animationType:'sliding'});
-			jQuery('#demo3').skdslider({delay:1500, animationSpeed: 2000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
-			
-			jQuery('#responsive').change(function(){
-			  $('#responsive_wrapper').width(jQuery(this).val());
-			  $(window).trigger('resize');
-			});
-			
-		});
-</script>	
+<h1 class="h1projekt1">1. Projekt</h1>	
 	
-	
-<div class="skdslider">
-    <ul id="demo1" class="slides">
-<li>
-<img class="img" src="images/flow1baggrund.jpg" alt="webdesign"/>
-<!--Slider Description example-->
- <div class="slide-desc">
-  </div>
-</li>
-<li><img class="img" src="images/flow1forsidexd.jpg" alt="webdesign_01"/>
-   <div class="slide-desc">
-  </div>
-</li>
-<li><img class="img" src="images/flow1udviklingxd.jpg" alt="webdesign_02" />
-<!--NO Description Here-->
-</li>
-
-</ul>
+<!--Slide start-->
+<div class="slider">
+	<img src="images/flow1baggrund.jpg" alt=""/>
+	<img src="images/flow1udviklingfarve.jpg" alt="" />
 </div>
+<!--Slide end-->
 	
+
+
 	
+
+
+
+	
+<div><img class="underbaggrund" src="images/underbaggrund.jpg" width="1200" height="135" alt=""/>
+	 </div>	
 
 	
 </body>

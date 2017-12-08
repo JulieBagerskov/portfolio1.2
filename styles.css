@@ -146,6 +146,7 @@ a.menu:hover{
 .project1:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
+	
 }
 
 
@@ -193,6 +194,22 @@ a.menu:hover{
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 }
+
+/*Projekt 1*/
+
+.h1projekt1 {
+	font-family:"Helvetica Neue, light";
+	color: black;
+	font-weight: lighter;
+	display: block;
+	top: 6%;
+	margin-left: 660px;
+	height: auto;
+	position: absolute;
+	font-size: 30px;
+}
+
+
 
 .underbaggrund {
 	display: block;
