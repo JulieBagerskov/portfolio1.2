@@ -209,6 +209,33 @@ a.menu:hover{
 	font-size: 30px;
 }
 
+.h1projekt2 {
+	font-family:"Helvetica Neue, light";
+	color: black;
+	font-weight: lighter;
+	display: block;
+	top: 6%;
+	margin-left: 660px;
+	height: auto;
+	position: absolute;
+	font-size: 30px;
+}
+
+.button {
+	margin-top: 350px;
+	margin-left: 1020px;
+	padding: 7px 10px;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	background-color: #696969;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 7px #999;
+}
+
 
 
 .underbaggrund {
