@@ -7,7 +7,12 @@
 	font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 }
 
-
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
 
 li, ul {
     font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif';
@@ -28,7 +33,6 @@ body {
 }
 
 
-
 /*Navbar boks*/
 .container {
 	width: 200px;
@@ -38,21 +42,45 @@ body {
 
 }
 
-/*Menubaren i sig selv*/
-.navbar {
-	padding-top: 20px;
-	margin: 0 auto;
-	position: fixed;
+/*Hide checkbox*/
+input[type=checkbox] {
+	display: none;
 }
 
-/*Selve menuknapperne*/
-.menu {
+/*show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ .navbar {
+	display: block;
+}
+
+.show-menu {
+	font-family:"Helvetica Neue, light";
 	text-decoration: none;
 	color: white;
 	background-color: #696969;
 	padding: 5px;
 	margin: 10px;
-	display: inline-block;
+	display: none;
+	width: 175px;
+	text-align: center;
+}
+
+
+/*Menubaren i sig selv*/
+.navbar {
+	padding-top: 20px;
+	margin: 0 auto;
+	position: fixed; 
+}
+
+/*Selve menuknapperne*/
+.menu {
+	font-family:"Helvetica Neue, light";
+	text-decoration: none;
+	color: white;
+	background-color: #696969;
+	padding: 5px;
+	margin: 10px;
+	display: block;
 	width: 175px;
 	text-align: center;
 
@@ -203,7 +231,7 @@ a.menu:hover{
 	font-weight: lighter;
 	display: block;
 	top: 6%;
-	margin-left: 660px;
+	margin-left: 575px;
 	height: auto;
 	position: absolute;
 	font-size: 30px;
@@ -215,24 +243,67 @@ a.menu:hover{
 	font-weight: lighter;
 	display: block;
 	top: 6%;
-	margin-left: 660px;
+	margin-left: 585.5px;
 	height: auto;
 	position: absolute;
 	font-size: 30px;
 }
 
-/*.bottonboks{
-	padding-top: 350px;
-	padding-left: 950px;
-	margin: 0 auto;
+.h1projekt3 {
+	font-family:"Helvetica Neue, light";
+	color: black;
+	font-weight: lighter;
+	display: block;
+	top: 6%;
+	margin-left: 585.5px;
+	height: auto;
 	position: absolute;
+	font-size: 30px;
+}
 
+.tilbageikon {
+	margin-top: 45px;
+	margin-left: 250px;
+	position: absolute;
+}
+
+.textboks1 {
+	font-family:"Helvetica Neue, light";
+	background-color: #696969;
+	color: black;
+	width: 500px;
+	height: 400px;
+	padding: 12px;
+	overflow: scroll;
+	position: absolute;
+	top: 16%;
+	left: 19%;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 0 3.5px #999;
+}
+
+
+
+/*.textboks2 {
+	font-family:"Helvetica Neue, light";
+	background-color: #696969;
+	width: 300px;
+	height: 200px;
+	padding: 12px;
+	overflow: scroll;
+	position: absolute;
+	top: 16%;
+	left: 45%;
 }*/
+
+
+
 
 .style-slideshow {
 	float: right;
-	margin-right: 22%;
-
+	margin-top: 12%;
+	margin-right: 85px;
 	
 }
 
@@ -240,17 +311,21 @@ a.menu:hover{
 	padding: 0;
 	position: relative;
 	width: 350px;
+	
 }
 
 .ssslide {
-	height: 195px;
+	height: 194px;
 	margin: 0;
 	padding: 0;
 	position: fixed;
-	top: 20%;
-	left: 70%;
+	top: 16%;
+	left: 66%;
 	display: none;
 	overflow: hidden;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 0 3.5px #999;
 }
 
 .ssslide img {
@@ -264,81 +339,156 @@ a.menu:hover{
 
 
 .button1 {
+	font-family:"Helvetica Neue, light";
 	text-decoration: none;
 	color: white;
 	background-color: #696969;
-	padding: 10px 15px;
+	padding: 10px 7px;
 	margin: auto;
 	display: block;
-	width: 40.5%;
-	font-size: 14px;
+	width: 40%;
+	font-size: 15px;
 	text-align: center;
 	cursor: pointer;
 	outline:none;
 	border: none;
-	border-radius: 15px;
+	border-radius: 10px;
 	box-shadow: 0 3.5px #999;
+
 
 }
 
 .button1:hover {
-	background-color: #515151;
+	color: black;
+	text-decoration: none;
+	
 }
 
 .button1:active {
 	background-color: #515151;
 	box-shadow: 0 3px #666;
 	transform: translateY(4px);
+	text-decoration: none;
+	
 }
 
-/*.button2 {
-	margin-top: 10px;
-	margin-left: 1040px;
-	padding: 5px 20px;
-	font-size: 20px;
-	text-align: center;
-	cursor: pointer;
-	outline: none;
-	color: white;
-	background-color: #696969;
-	border: none;
-	border-radius: 15px;
-	box-shadow: 0 3.5px #999;
-
-}
-
-.button2:hover {
-	background-color: #515151;
-}
-
-.button2:active {
-	background-color: #515151;
-	box-shadow: 0 3px #666;
-	transform: translateY(4px);
-}
-
-.button3 {
-	margin-top: 350px;
-	margin-left: 1020px;
-	padding: 5px 20px;
-	font-size: 20px;
-	text-align: center;
-	cursor: pointer;
-	outline: none;
-	color: white;
-	background-color: #696969;
-	border: none;
-	border-radius: 15px;
-	box-shadow: 0 3.5px #999;
-}*/
 
 .underbaggrund {
-	display: block;
 	position: fixed;
-	top: 81%;
+	top: 95%;
 	margin-left: 200px;
 }
 
+
+@media screen and (max-width : 760px){
+	
+	body {
+		background-attachment: fixed;
+	}
+	
+	.container {
+		background: none;
+		width: 100%;
+	}
+	
+	
+	.show-menu {
+		font-family:"Helvetica Neue, light";
+		background: #696969;
+		display: flex;
+		color: white;
+		cursor: pointer;
+		font-size: 15px;
+		width: 405px;
+		padding: 15px 0;
+		margin: 0;
+		justify-content: center;
+	
+		
+		}
+
+	.show-menu:hover {
+		color: black;
+		}
+	
+	.navbar {
+		
+		display: none;
+		
+	}
+
+	.navbar li:not(:first-child){
+		border: 0;
+	}
+	
+	.navbar li:not(:last-child) {
+		margin: 2px 0;
+	}
+	
+	
+	/*Create vertical spacing*/
+	.menu {
+		text-align: center;
+		margin-bottom: 1px;
+		margin-top: 0.5px;
+		width: 405px;
+		font-family:"Helvetica Neue, light";
+		font-size: 15px;
+		text-decoration: none;
+		color: white;
+		background-color: #696969;
+		padding: 10px;
+		margin-left: 0;
+		display: block;	
+		
+	}
+		
+	
+
+	#navlogo {
+		float: none;
+		height: auto;
+		padding: 0;
+		margin:0;
+		width: 100%;
+		overflow: visible;
+		font-size: 5px;
+		position: relative;
+		}
+
+	.forsidelogo {
+		display: none;
+	}
+	
+	.h1forside {
+		display: none;
+	}
+	
+	.h2forside {
+		display: none;
+	}
+
+		.underbaggrund {
+		width: 800px;
+		margin: 0;
+		position: fixed;
+		height: 100px;
+		top: 90%;
+		}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
 
 
 
