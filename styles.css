@@ -258,7 +258,54 @@ a.menu:hover{
 	margin-left: 585.5px;
 	height: auto;
 	position: absolute;
-	font-size: 30px;
+	
+}
+
+.h1projekt4 {
+	font-family:"Helvetica Neue, light";
+	color: black;
+	font-weight: lighter;
+	display: block;
+	top: 6%;
+	margin-left: 585.5px;
+	height: auto;
+	position: absolute;
+	
+}
+
+.h1projekt4 {
+	font-family:"Helvetica Neue, light";
+	color: black;
+	font-weight: lighter;
+	display: block;
+	top: 6%;
+	margin-left: 300px;
+	height: auto;
+	position: absolute;
+	
+}
+
+.h2projekt4_1 {
+	font-family:"Helvetica Neue, light";
+	color: black;
+	font-weight: lighter;
+	display: block;
+	top: 11%;
+	margin-left: 445px;
+	height: auto;
+	position: absolute;
+	
+}
+
+.h5projekt4_1 {
+	font-family:"Helvetica Neue, light";
+	color: black;
+	font-weight: lighter;
+	display: block;
+	top: 16%;
+	margin-left: 445px;
+	height: auto;
+	position: absolute;
 }
 
 .tilbageikon {
@@ -370,6 +417,27 @@ a.menu:hover{
 	transform: translateY(4px);
 	text-decoration: none;
 	
+}
+
+.button2 {
+	font-family:"Helvetica Neue, light";
+	text-decoration: none;
+	color: white;
+	background-color: #696969;
+	padding: 10px 7px;
+	margin: auto;
+	display: block;
+	width: 10%;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+	outline:none;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 3.5px #999;
+	position: absolute;
+	left: 440px;
+	top: 30%;
 }
 
 
