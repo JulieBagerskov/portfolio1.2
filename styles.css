@@ -4,7 +4,7 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-family:"Helvetica Neue";
 }
 
 ul {
@@ -14,9 +14,7 @@ ul {
 	position: absolute;
 }
 
-li, ul {
-    font-family:'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-}
+
 
 li a:hover {
     background-color: #111;
@@ -66,15 +64,15 @@ input[type=checkbox]:checked ~ .navbar {
 
 
 /*Menubaren i sig selv*/
-.navbar {
+nav {
 	padding-top: 20px;
 	margin: 0 auto;
 	position: fixed; 
 }
 
 /*Selve menuknapperne*/
-.menu {
-	font-family:"Helvetica Neue, light";
+nav ul li a {
+	font-family:"Helvetica Neue";
 	text-decoration: none;
 	color: white;
 	background-color: #696969;
@@ -102,9 +100,9 @@ a.menu:hover{
 
 
 .h1forside {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 6%;
 	margin-left: 633px;
@@ -115,9 +113,9 @@ a.menu:hover{
 }
 
 .h2forside {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 11%;
 	margin-left: 610px;
@@ -138,9 +136,9 @@ a.menu:hover{
 }
 
 .h1projekt {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 6%;
 	margin-left: 664px;
@@ -151,12 +149,12 @@ a.menu:hover{
 }
 
 .h4projekt {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 12%;
-	margin-left: 408px;
+	margin-left: 370px;
 	height: auto;
 	position: absolute;
 }
@@ -165,7 +163,7 @@ a.menu:hover{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	top: 24%;
-	margin-left: 345px;
+	margin-left: 350px;
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity=50);
@@ -182,7 +180,7 @@ a.menu:hover{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	top: 24%;
-	margin-left: 605px;
+	margin-left: 610px;
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity=50);
@@ -197,7 +195,7 @@ a.menu:hover{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	top: 24%;
-	margin-left: 865px;
+	margin-left: 870px;
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity=50);
@@ -226,97 +224,75 @@ a.menu:hover{
 /*Projekt 1*/
 
 .h1projekt1 {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 6%;
-	margin-left: 575px;
+	margin-left: 365px;
 	height: auto;
 	position: absolute;
 	font-size: 30px;
 }
 
 .h1projekt2 {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 6%;
-	margin-left: 585.5px;
+	margin-left: 365px;
 	height: auto;
 	position: absolute;
 	font-size: 30px;
 }
 
 .h1projekt3 {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: bold;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 6%;
-	margin-left: 585.5px;
+	margin-left: 390px;
 	height: auto;
 	position: absolute;
 	
 }
 
 .h1projekt4 {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 6%;
-	margin-left: 585.5px;
+	margin-left: 245px;
 	height: auto;
 	position: absolute;
 	
 }
 
-.h1projekt4 {
-	font-family:"Helvetica Neue, light";
+.h1info {
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	color: black;
-	font-weight: lighter;
 	display: block;
 	top: 6%;
-	margin-left: 300px;
+	margin-left: 390px;
 	height: auto;
 	position: absolute;
-	
+	font-size: 30px;
 }
 
-.h2projekt4_1 {
-	font-family:"Helvetica Neue, light";
-	color: black;
-	font-weight: lighter;
-	display: block;
-	top: 11%;
-	margin-left: 445px;
-	height: auto;
-	position: absolute;
-	
-}
-
-.h5projekt4_1 {
-	font-family:"Helvetica Neue, light";
-	color: black;
-	font-weight: lighter;
-	display: block;
-	top: 16%;
-	margin-left: 445px;
-	height: auto;
-	position: absolute;
-}
 
 .tilbageikon {
 	margin-top: 45px;
-	margin-left: 250px;
+	margin-left: 230px;
 	position: absolute;
 }
 
 .textboks1 {
-	font-family:"Helvetica Neue, light";
-	background-color: #696969;
+	font-family:"Helvetica Neue";
+	background-color: #9E9E9E;
 	color: black;
 	width: 500px;
 	height: 400px;
@@ -419,6 +395,18 @@ a.menu:hover{
 	
 }
 
+.infoimage {
+	
+	top: 16%;
+	left: 72%;
+	width: auto;
+	height: 400px;
+	position: absolute;
+	border-style: solid;
+	border-width: 2px;
+	box-shadow: 0 3.5px #999;
+}
+
 .button2 {
 	font-family:"Helvetica Neue, light";
 	text-decoration: none;
@@ -440,11 +428,92 @@ a.menu:hover{
 	top: 30%;
 }
 
+.overlaycontainer {
+	top: 24%;
+	left: 28%;
+	position: absolute;
+}
+
+.language {
+	display: block;
+	width: 350px;
+	height: 267px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #696969;
+}
+
+.overlaycontainer:hover .overlay {
+	opacity: 1;
+}
+
+.overlayimage {
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	position: absolute;
+	top: 60%;
+	left: 62%;
+	transform: translate(-50%, -50%);
+	transform-ms-: translate(-50%, -50%);
+}
+
+
+.overlaycontainer1 {
+	top: 24%;
+	left: 60%;
+	position: absolute;
+}
+
+.programs {
+	display: block;
+	width: 350px;
+	height: 267px;
+}
+
+.overlay1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #696969;
+}
+
+.overlaycontainer1:hover .overlay1 {
+	opacity: 1;
+}
+
+.overlayimage1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transform-ms-: translate(-50%, -50%);
+}
+
+
 
 .underbaggrund {
 	position: fixed;
 	top: 95%;
 	margin-left: 200px;
+	width: 1200px;
+	height: 135px;
 }
 
 
@@ -456,22 +525,29 @@ a.menu:hover{
 	
 	.container {
 		background: none;
-		width: 100%;
+		width: 120px;
+	}
+	
+	#navlogo {
+		/*width: 100px;
+		height: auto;
+		margin-left: 9.5px;*/
+		display: none;
 	}
 	
 	
 	.show-menu {
 		font-family:"Helvetica Neue, light";
+		text-align: center;
 		background: #696969;
 		display: flex;
 		color: white;
 		cursor: pointer;
-		font-size: 15px;
-		width: 405px;
-		padding: 15px 0;
-		margin: 0;
+		font-size: 10px;
+		width: 90px;
+		padding: 8px 0;
+		margin-left: 10px;
 		justify-content: center;
-	
 		
 		}
 
@@ -480,9 +556,8 @@ a.menu:hover{
 		}
 	
 	.navbar {
-		
+		padding-top: 0;
 		display: none;
-		
 	}
 
 	.navbar li:not(:first-child){
@@ -492,56 +567,59 @@ a.menu:hover{
 	.navbar li:not(:last-child) {
 		margin: 2px 0;
 	}
-	
-	
-	/*Create vertical spacing*/
-	.menu {
+	.menu {	
 		text-align: center;
 		margin-bottom: 1px;
 		margin-top: 0.5px;
-		width: 405px;
+		width: 90px;
 		font-family:"Helvetica Neue, light";
-		font-size: 15px;
+		font-size: 10px;
 		text-decoration: none;
 		color: white;
 		background-color: #696969;
-		padding: 10px;
-		margin-left: 0;
-		display: block;	
-		
+		padding: 8px;
+		margin-left: 10px;
+		display: block;
 	}
-		
 	
-
-	#navlogo {
-		float: none;
-		height: auto;
-		padding: 0;
-		margin:0;
-		width: 100%;
-		overflow: visible;
-		font-size: 5px;
-		position: relative;
-		}
-
-	.forsidelogo {
-		display: none;
-	}
+		
 	
 	.h1forside {
-		display: none;
+		font-family:"Helvetica Neue";
+		font-weight: normal;
+		color: black;
+		display: block;
+		top: 20%;
+		margin-left: 115px;
+		height: auto;
+		position: absolute;
+		font-size: 25px;
+		text-align: center;
 	}
-	
+
 	.h2forside {
 		display: none;
 	}
+	
 
-		.underbaggrund {
-		width: 800px;
-		margin: 0;
-		position: fixed;
-		height: 100px;
-		top: 90%;
+	
+
+	.forsidelogo {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		display: block;
+		top: 30%;
+		margin-left: 67px;
+		width: 70%;
+		height: auto;
+		position: absolute;
+	}
+	
+	
+
+	.underbaggrund {
+		width: 100%;
+		height: auto;
+		margin-left: 0;
 		}
 	
 	
