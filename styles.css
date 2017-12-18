@@ -159,7 +159,7 @@ a.menu:hover{
 	position: absolute;
 }
 
-.project1 {
+.projekt1 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	top: 24%;
@@ -167,16 +167,18 @@ a.menu:hover{
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity=50);
+	width: 250px;
+	height: 139px;
 }
 
-.project1:hover {
+.projekt1:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 	
 }
 
 
-.project2 {
+.projekt2 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	top: 24%;
@@ -184,14 +186,16 @@ a.menu:hover{
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity=50);
+	width: 250px;
+	height: 139px;
 }
 
-.project2:hover {
+.projekt2:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 }
 
-.project3 {
+.projekt3 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	top: 24%;
@@ -199,27 +203,50 @@ a.menu:hover{
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity=50);
+	width: 250px;
+	height: 139px;
 }
 
-.project3:hover {
+.projekt3:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 }
 
-.project4 {
+.projekt4 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
 	top: 45.5%;
-	margin-left: 345px;
+	margin-left: 350px;
 	position: absolute;
 	opacity: 0.6;
 	filter: alpha(opacity=50);
+	width: 250px;
+	height: 139px;
+	
 }
 
-.project4:hover {
+.projekt4:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 }
+
+.projekt5 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	top: 45.5%;
+	margin-left: 610px;
+	position: absolute;
+	opacity: 0.6;
+	filter: alpha(opacity=50);
+	width: 250px;
+	height: 139px;
+}
+
+.projekt5:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
+
 
 /*Projekt 1*/
 
@@ -271,13 +298,24 @@ a.menu:hover{
 	
 }
 
+.h1projekt5 {
+	font-family:"Helvetica Neue";
+	font-weight: normal;
+	color: black;
+	display: block;
+	top: 6%;
+	margin-left: 350px;
+	height: auto;
+	position: absolute;
+}
+
 .h1info {
 	font-family:"Helvetica Neue";
 	font-weight: normal;
 	color: black;
 	display: block;
 	top: 6%;
-	margin-left: 390px;
+	margin-left: 235px;
 	height: auto;
 	position: absolute;
 	font-size: 30px;
@@ -292,7 +330,7 @@ a.menu:hover{
 
 .textboks1 {
 	font-family:"Helvetica Neue";
-	background-color: #9E9E9E;
+	background-color: white;
 	color: black;
 	width: 500px;
 	height: 400px;
@@ -450,7 +488,7 @@ a.menu:hover{
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #696969;
+	background-color: white;
 }
 
 .overlaycontainer:hover .overlay {
@@ -473,6 +511,7 @@ a.menu:hover{
 	top: 24%;
 	left: 60%;
 	position: absolute;
+	
 }
 
 .programs {
@@ -491,7 +530,9 @@ a.menu:hover{
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #696969;
+	background-color: white;
+	border-width: 2px;
+	
 }
 
 .overlaycontainer1:hover .overlay1 {
@@ -504,6 +545,16 @@ a.menu:hover{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	transform-ms-: translate(-50%, -50%);
+}
+
+.kontaktimage {
+	width: 400px;
+	height: auto; 
+	position: absolute;
+	left: 42%;
+	top: 30%;
+	border-width: 2px;
+	box-shadow: 0 3.5px #999;
 }
 
 
