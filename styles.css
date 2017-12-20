@@ -97,7 +97,7 @@ a.menu:hover{
 	margin: 0 auto;
 }
 
-
+/*Frontpage*/
 
 .h1forside {
 	font-family:"Helvetica Neue";
@@ -134,6 +134,8 @@ a.menu:hover{
 	height: auto;
 	position: absolute;
 }
+
+/*Projectpage*/
 
 .h1projekter {
 	font-family:"Helvetica Neue";
@@ -238,7 +240,7 @@ a.menu:hover{
 }
 
 
-/*Projekt 1*/
+/*Project 1*/
 
 .h1projekt1 {
 	font-family:"Helvetica Neue";
@@ -262,6 +264,8 @@ a.menu:hover{
 	height: auto;
 }
 
+/*Project 2*/
+
 .h1projekt2 {
 	font-family:"Helvetica Neue";
 	font-weight: normal;
@@ -278,6 +282,8 @@ a.menu:hover{
 	width: 230px;
 	height: auto;
 }
+
+/*Project 3*/
 
 .h1projekt3 {
 	font-family:"Helvetica Neue";
@@ -308,6 +314,8 @@ a.menu:hover{
 	
 }
 
+/*Project 4*/
+
 .h1projekt4 {
 	font-family:"Helvetica Neue";
 	font-weight: normal;
@@ -325,6 +333,8 @@ a.menu:hover{
 	height: auto;
 }
 
+/*Project 5*/
+
 .h1projekt5 {
 	font-family:"Helvetica Neue";
 	font-weight: normal;
@@ -336,37 +346,17 @@ a.menu:hover{
 	position: absolute;
 }
 
-.h1info {
-	font-family:"Helvetica Neue";
-	font-weight: normal;
-	color: black;
-	display: block;
-	top: 5%;
-	margin-left: 440px;
-	height: auto;
-	position: absolute;
-	font-size: 30px;
-}
-
-.h1kontakt {
-	font-family:"Helvetica Neue";
-	font-weight: normal;
-	color: black;
-	display: block;
-	top: 5%;
-	margin-left: 650px;
-	height: auto;
-	position: absolute;
-	font-size: 30px;
-}
 
 
+/*Backbutton*/
 
 .tilbageikon {
 	margin-top: 38.7px;
 	margin-left: 220px;
 	position: absolute;
 }
+
+/*Textbox*/
 
 .textboks1 {
 	font-family:"Helvetica Neue";
@@ -384,6 +374,8 @@ a.menu:hover{
 	box-shadow: 0 3.5px #999;
 }
 
+
+/*Slideshow start*/
 
 .style-slideshow {
 	float: right;
@@ -422,6 +414,9 @@ a.menu:hover{
 	display: block;
 }
 
+/*Slideshow end*/
+
+/*Buttons start*/
 
 .buttonboks {
 	top: 50%;
@@ -454,18 +449,30 @@ a.menu:hover{
 .button1:hover {
 	color: black;
 	text-decoration: none;
-	
 }
 
 .button1:active {
 	background-color: #515151;
 	box-shadow: 0 3px #666;
 	transform: translateY(4px);
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
+/*Button end*/
 
+/*Informationpage*/
+
+.h1info {
+	font-family:"Helvetica Neue";
+	font-weight: normal;
+	color: black;
+	display: block;
+	top: 5%;
+	margin-left: 440px;
+	height: auto;
+	position: absolute;
+	font-size: 30px;
+}
 
 .infoimage {
 	
@@ -479,26 +486,8 @@ a.menu:hover{
 	box-shadow: 0 3.5px #999;
 }
 
-/*.button2 {
-	font-family:"Helvetica Neue, light";
-	text-decoration: none;
-	color: white;
-	background-color: #696969;
-	padding: 10px 7px;
-	margin: auto;
-	display: block;
-	width: 10%;
-	font-size: 15px;
-	text-align: center;
-	cursor: pointer;
-	outline:none;
-	border: none;
-	border-radius: 10px;
-	box-shadow: 0 3.5px #999;
-	position: absolute;
-	left: 440px;
-	top: 30%;
-}*/
+
+/*Hover-overlay start*/
 
 .overlaycontainer {
 	top: 24%;
@@ -581,7 +570,21 @@ a.menu:hover{
 	transform-ms-: translate(-50%, -50%);
 }
 
+/*Hover-overlay end*/
 
+/*Contactpage*/
+
+.h1kontakt {
+	font-family:"Helvetica Neue";
+	font-weight: normal;
+	color: black;
+	display: block;
+	top: 5%;
+	margin-left: 650px;
+	height: auto;
+	position: absolute;
+	font-size: 30px;
+}
 
 .kontaktimage {
 	width: 400px;
