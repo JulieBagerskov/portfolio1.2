@@ -314,7 +314,7 @@ a.menu:hover{
 	color: black;
 	display: block;
 	top: 5%;
-	margin-left: 240px;
+	margin-left: 235px;
 	height: auto;
 	position: absolute;
 	
@@ -342,7 +342,7 @@ a.menu:hover{
 	color: black;
 	display: block;
 	top: 5%;
-	margin-left: 420px;
+	margin-left: 440px;
 	height: auto;
 	position: absolute;
 	font-size: 30px;
@@ -364,7 +364,7 @@ a.menu:hover{
 
 .tilbageikon {
 	margin-top: 38.7px;
-	margin-left: 227px;
+	margin-left: 220px;
 	position: absolute;
 }
 
@@ -423,25 +423,33 @@ a.menu:hover{
 }
 
 
+.buttonboks {
+	top: 50%;
+	left: 69%;
+	position: fixed;
+	width: 30%;
+}
+
+
 .button1 {
-	font-family:"Helvetica Neue, light";
+	font-family:"Helvetica Neue";
+	font-weight: normal;
 	text-decoration: none;
 	color: white;
 	background-color: #696969;
 	padding: 10px 7px;
-	margin: auto;
-	display: block;
+	margin: 4px 2px;
+	display: inline-block;
 	width: 40%;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 	cursor: pointer;
 	outline:none;
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0 3.5px #999;
-
-
 }
+
 
 .button1:hover {
 	color: black;
@@ -457,6 +465,8 @@ a.menu:hover{
 	
 }
 
+
+
 .infoimage {
 	
 	top: 16%;
@@ -469,7 +479,7 @@ a.menu:hover{
 	box-shadow: 0 3.5px #999;
 }
 
-.button2 {
+/*.button2 {
 	font-family:"Helvetica Neue, light";
 	text-decoration: none;
 	color: white;
@@ -488,7 +498,7 @@ a.menu:hover{
 	position: absolute;
 	left: 440px;
 	top: 30%;
-}
+}*/
 
 .overlaycontainer {
 	top: 24%;
