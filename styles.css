@@ -521,11 +521,10 @@ a.menu:hover{
 
 .overlayimage {
 	color: black;
-	font-size: 20px;
 	text-align: left;
 	position: absolute;
-	top: 60%;
-	left: 62%;
+	top: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	transform-ms-: translate(-50%, -50%);
 }
@@ -926,11 +925,6 @@ a.menu:hover{
 		opacity: 1;
 		background-color: #848484;
 	}
-	
-	.overlayimage {
-		margin-left: 10px;
-	}
-	
 	
 	.language {
 		width: 280px;
