@@ -133,6 +133,7 @@ a.menu:hover{
 	margin-left: 500px;
 	height: auto;
 	position: absolute;
+	z-index: -1;
 }
 
 /*Projectpage*/
@@ -476,10 +477,10 @@ a.menu:hover{
 
 .infoimage {
 	
-	top: 16%;
-	left: 72%;
+	top: 25%;
+	left: 75%;
 	width: auto;
-	height: 400px;
+	height: 210px;
 	position: absolute;
 	border-style: solid;
 	border-width: 2px;
@@ -616,6 +617,8 @@ a.menu:hover{
 	.container {
 		background: none;
 		width: 120px;
+		right: 2.5%;
+	
 	}
 	
 	#navlogo {
@@ -637,6 +640,7 @@ a.menu:hover{
 		width: 90px;
 		padding: 8px 0;
 		margin-left: 10px;
+		margin-top: 15px;
 		justify-content: center;
 		
 		}
@@ -672,7 +676,11 @@ a.menu:hover{
 		display: block;
 	}
 	
-		
+	.tilbageikon {
+		margin-top: 12px;
+		margin-left: 17px;
+		position: absolute;
+	}	
 	
 	.h1forside {
 		font-family:"Helvetica Neue";
@@ -685,6 +693,7 @@ a.menu:hover{
 		position: absolute;
 		font-size: 25px;
 		text-align: center;
+		z-index: -1;
 	}
 
 	.h2forside {
@@ -704,12 +713,276 @@ a.menu:hover{
 		position: absolute;
 	}
 	
+	.h1projekter {
+		top: 20px;
+		margin-left: 10px;
+		height: auto;
+		position: relative;
+		font-size: 13px;
+		text-align: center;
 	
+	}
+	
+	.projekt1 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	top: auto;
+	margin-top: 35px;
+	margin-left: 32px;
+	margin-bottom: 10px;
+	position:relative;
+	opacity: 1;
+	filter: alpha(opacity=50);
+	width: 82%;
+	height: auto;
+	z-index: -1;
+}
+	
+	.projekt2 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	top: auto;
+	margin-left: 32px;
+	margin-bottom: 10px;
+	position: relative;
+	opacity: 1;
+	filter: alpha(opacity=50);
+	width: 82%;
+	height: auto;
+}
+	
+	.projekt3 {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		display: block;
+		top: auto;
+		margin-left: 32px;
+		margin-bottom: 10px;
+		position: relative;
+		opacity: 1;
+		filter: alpha(opacity=50);
+		width: 82%;
+		height: auto;
+	}
+	
+	.projekt4 {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		display: block;
+		top: auto;
+		margin-left: 32px;
+		margin-bottom: 10px;
+		position: relative;
+		opacity: 1;
+		filter: alpha(opacity=50);
+		width: 82%;
+		height: auto;
+	}
+	
+	.projekt5 {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		display: block;
+		top: auto;
+		margin-left: 32px;
+		margin-bottom: 10px;
+		position: relative;
+		opacity: 1;
+		filter: alpha(opacity=50);
+		width: 82%;
+		height: auto;
+	}
+	
+	.style-slideshow {
+	float: right;
+	margin-left: 32px;
+	margin-top: 70%;
+	margin-right: 49px;
+	
+	}
+
+	.slider { 
+		padding: 0;
+		position: relative;
+
+	}
+
+	.ssslide {
+		height: auto;
+		width: 88%;
+		margin-left: 42px;
+		padding: 0;
+		position: absolute;
+		top: 21%;
+		left: 2px;
+		display: none;
+		overflow: hidden;
+		border-style: solid;
+		border-width: 2px;
+		box-shadow: 0 3.5px #999;
+		z-index: -1;
+	}
+
+	.ssslide img {
+		max-width: 50%;
+		max-height: 700px;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: block;
+	}
+	
+	.buttonboks {
+		top: 75%;
+		left: 12.5%;
+		position: absolute;
+		width: 90%;
+		display: inline-block;
+	}
+	
+	.button1 {
+		font-size: 11px;
+	}
+	
+	.textboks1 {
+		width: 91%;
+		height: 210px;
+		padding: 12px;
+		position: absolute;
+		top: 10%;
+		left: 5%;
+		box-shadow: 0 3.5px #999;
+		font-size: 11px;
+		z-index: -1;
+
+	}
+	
+	.h1projekt1 {
+		top: 20px;
+		margin-left: 45px;
+		font-size: 13px;
+		height: auto;
+		position: absolute;
+	
+	}
+	
+	.h1projekt2 {
+		top: 20px;
+		margin-left: 45px;
+		font-size: 13px;
+		height: auto;
+		position: absolute;
+}
+	
+	.h1projekt3 {
+		top: 20px;
+		margin-left: 45px;
+		font-size: 13px;
+		height: auto;
+		position: absolute;
+	}
+	
+	.h1projekt4 {
+		top: 20px;
+		margin-left: 45px;
+		font-size: 13px;
+		height: auto;
+		position: absolute;
+	}
+	
+	.h1projekt5 {
+		top: 20px;
+		margin-left: 45px;
+		font-size: 13px;
+		height: auto;
+		position: absolute;
+	}
+	
+	.h1info {
+		top: 20px;
+		margin-left: 45px;
+		font-size: 13px;
+		height: auto;
+		position: absolute;
+}
+
+	.infoimage {
+
+		top: 50%;
+		left: 25%;
+		width: 50%;
+		height: auto;
+		position: absolute;
+		border-style: solid;
+		border-width: 2px;
+		box-shadow: 0 3.5px #999;
+	}
+
+	.overlaycontainer {
+		top: 100px;
+		left: 58px;
+		position: relative;
+		width: 70%;
+		z-index: -1;
+	}
+	
+	.overlay {
+		opacity: 1;
+		background-color: #848484;
+	}
+	
+	.overlayimage {
+		margin-left: 10px;
+	}
+	
+	
+	.language {
+		width: 280px;
+		height: auto;
+		position: relative;
+	}
+	
+
+	
+	.overlaycontainer1 {
+		top: 110px;
+		left: 58px;
+		position: relative;
+		width: 70%;
+	}
+	
+	.overlay1 {
+		opacity: 1;
+		background-color: #848484;
+	}
+	
+	.programs {
+		width: 280px;
+		height: auto;
+		position: relative;
+	}
+	
+	
+	.h1kontakt {
+		top: 20px;
+		margin-left: 45px;
+		font-size: 13px;
+		height: auto;
+		position: absolute;
+	}
+
+.kontaktimage {
+	width: 80%;
+	height: auto; 
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	border-width: 2px;
+	box-shadow: 0 3.5px #999;
+}
 
 	.underbaggrund {
 		width: 100%;
 		height: auto;
 		margin-left: 0;
+		z-index: -1;
 		}
 	
 	
